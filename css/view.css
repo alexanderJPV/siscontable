@@ -1,0 +1,60 @@
+  /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-may-2016, 12:49:34
+    Author     : a66
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font:11px arial,tahoma,helvetica,sans-serif;
+}
+.table-ext{
+
+    background: #fff;
+}
+.table-ext table{
+    border-collapse: collapse;
+}
+
+.table-ext caption{
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.table-ext td{
+    border: 1px solid #DDDDDD;
+    padding: 4px 5px;
+}
+.table-ext th{
+    font-weight: normal;
+    background: #F0F1F3;
+    border: 1px solid #DDDDDD;
+    padding: 4px 5px;
+    background: url(../images/bg-th.jpg) repeat-x;
+}
+
+
+.table-ext tr:nth-of-type(odd) {
+    background: #FAFAFA;
+}
+
+.table-ext .number{
+    width: 50px;
+    float: left;
+    display: block;
+    color: #666666;
+    background: #F0F1F3;
+}
+.table-ext .decimal{
+    width: 80px;
+    text-align: right;
+}
+.table-ext .footer-table{
+    font-weight: bold;
+}
+
