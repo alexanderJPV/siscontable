@@ -132,7 +132,7 @@ body{
     margin:50px;
 }
 .link{
-    color:#06F;
+    color:#FF0000;
 }
 .menu{
     width:140px;
@@ -165,7 +165,7 @@ body{
 .linkMenu .textmenu{
     margin: 10px 3px;
     float: left;
-
+    
 }
 .iconPanelNoticia{
     background:url(../icons/news.png) 0px no-repeat !important;

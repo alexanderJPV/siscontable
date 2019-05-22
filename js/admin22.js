@@ -60,10 +60,11 @@ a66.admin.interfaz = {
         });
 
         var panelBienvenida = new Ext.Panel({
-            title: 'Bienvenido',
+            title: 'PANEL PRINCIPAL',
             collapsible: true,
-            html: '<div style="background: url(images/2.jpg) no-repeat center;widht:200px;height:100%;margin:1px auto;text-align:center;color:#277AD0;"><img id="loguito" src="images/logo_conta3161.png" /></div>'
-        });
+            bodyStyle:{"background-color":"#2E453E"},
+            html: '<div style="background: url(images/fon.jpg) no-repeat center; widht:250px; height:100%; margin:1px auto;text-align:center;color:#277AD0;"></div>'
+         });
         var tabs = new Ext.TabPanel({
             border: false,
             activeTab: 0,
@@ -119,39 +120,45 @@ a66.admin.interfaz = {
                 tabs.setActiveTab('id' + numTab);
             }
         }
-        var menuHTML = '<p id="cuentaM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Catalogo de Cuentas</span></p>';
-        menuHTML += '<p id="diarioM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Libro Diario</span></p>';
-        menuHTML += '<p id="mayorM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Libro Mayor</span></p>';
-        menuHTML += '<p id="comprobacionM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Balance de Comprobacion</span></p>';
-        menuHTML += '<p id="resultadosM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">H. T. 6 Columnas</span></p>';
-        menuHTML += '<p id="columnas10M" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">H. T. 10 Columnas</span></p>';
-
+            var menuHTML = '<p id="cuentaM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico2.png" width="25" height="30" /></span><span style="color:#2E453E"  class="textmenu">Catalogo de Cuentas</span></p>';
+            menuHTML += '<p id="diarioM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico6.png" width="25" height="30" /></span><span style="color:#2E453E" class="textmenu">Libro Diario</span></p>';
+            menuHTML += '<p id="mayorM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico5.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Mayores en T</span></p>';
+            menuHTML += '<p id="comprobacionM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico4.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Balance de Comprobacion</span></p>';
+            menuHTML += '<p id="resultadosM" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico4.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Hoja Trabajo 6 Columnas</span></p>';
+/*             menuHTML += '<p id="columnas10M" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">H. T. 10 Columnas</span></p>';
+ */    
         var panelMenu = new Ext.Panel({
-            title: 'PRINCIPAL',
+            title: 'MENU',
             collapsible: true,
+            bodyStyle:{"background-color":"#369EAB"},            
             html: menuHTML,
         });
-        var reportesHTML = '<p id="balanceInicialPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Balance de Apertura</span></p>';
-        reportesHTML += '<p id="comprobacionPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Balance de Comprobacion</span></p>';
-        reportesHTML += '<p id="bgyerPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Estados Financieros</span></p>';
+
+        
+        var reportesHTML = '<p id="balanceInicialPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico7.png" width="25" height="30" /></span><span  class="textmenu">Balance de Apertura</span></p>';
+        reportesHTML += '<p id="comprobacionPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico8.png" width="25" height="30"/></span><span class="textmenu">Balance de Comprobacion</span></p>';
+        reportesHTML += '<p id="bgyerPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico9.png" width="25" height="30"/></span><span class="textmenu">Estados Financieros</span></p>';
 
         var panelReportes = new Ext.Panel({
             title: 'REPORTES',
             collapsible: true,
+            bodyStyle:{"background-color":"#369EAB"},            
             html: reportesHTML,
         });
-        var acercaHTML = '<p id="manual" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Manual de Usuario</span></p>';
-        acercaHTML += '<p id="acerca" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico316.png" /></span><span class="textmenu">Informacion del grupo</span></p>';
+
+        var acercaHTML = '<p id="manual" class="linkMenu" style="margin-top:5px;"><span><img src="icons/icon10.png" width="25" height="30"/></span><span class="textmenu">Manual de Usuario</span></p>';
+        acercaHTML += '<p id="acerca" class="linkMenu" style="margin-top:5px;"><span><img src="icons/icon11.png" width="25" height="30"/></span><span class="textmenu">Informacion del grupo</span></p>';
 
         var panelAcerca = new Ext.Panel({
-            title: '...',
+            title: 'OTROS',
             collapsible: true,
+            bodyStyle:{"background-color":"#369EAB"},
             html: acercaHTML,
         });
 
         new Ext.Viewport({
-            layout: 'border',
-            items: [{
+            layout: 'border',            
+            items: [{                    
                     region: 'north',
                     height: 40,
                     minWidth: 400,
@@ -160,9 +167,10 @@ a66.admin.interfaz = {
                     split: true,
                     items: [header]
                 }, {
-                    title: 'Sistemaaaaa Contable',
+                    title: 'CONTABILIDAD',
                     region: 'west',
                     collapsible: true,
+                    bodyStyle:{"background-color":"#369EAB"},
                     split: true,
                     width: 200,
                     autoScroll: true,
@@ -194,11 +202,11 @@ a66.admin.interfaz = {
         btnMayor.on('click', function() {
             addTab(4, "Libro Mayor");
         });
-        var btnCols10 = Ext.get('columnas10M');
+        /* var btnCols10 = Ext.get('columnas10M');
         btnCols10.on('click', function() {
             addTab(5, "H. T. 10 Columnas");
-        });
-        ///////
+        }); */
+        ///////--------------------------------------------------------------------------
         var btnRepBalanceInicial = Ext.get('balanceInicialPDF');
         btnRepBalanceInicial.on('click', function() {
             printApertura();
