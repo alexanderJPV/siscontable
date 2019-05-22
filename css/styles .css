@@ -1,0 +1,268 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+    /*background-color:#b264bb;*/
+    /* background-image: url(../images/fondo.jpg); */
+    margin: 0px;
+    padding: 0px;
+}
+.x-label{
+    float:right;
+}
+
+.upload-icon {
+    background: url('../icons/upload.png') no-repeat 0 0 !important;
+}
+.upload-icon:hover {
+    cursor:pointer;
+}
+#fi-button-msg {
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    background: #eee;
+    margin: 5px;
+    float: left;
+}
+.header{
+
+    color:#CCC;
+    font-size:14px;
+    /*background:#b264bb;*/
+    background-image: url(../images/);
+    /*background-image: url(../images/texturalila1.jpg);*/
+    width:100%;
+    height:50px;
+}
+.conta{
+    color: #0099FF;
+}
+.conta316{
+    color: #fff;
+}
+.menup{
+    width:100%;
+    height:100px;
+    background:#666;
+    font-size:12px;
+}
+
+.icono{
+    float:left;
+    width:30px;
+    height:30px;
+    margin:5px;
+    text-align:center;
+    color:#FFF;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.icono:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    cursor:pointer;
+    font-weight:bold;
+}
+.iconoleft{
+    float:left;
+    margin:4px 5px 2px 5px;
+    text-align:center;
+    color:#FFF;
+}
+.iconoleft:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.iconoR{
+    float:left;
+    width:100px;
+    height:100px;
+    margin:4px 5px 2px 5px;
+    text-align:center;
+    color:#000;
+}
+.iconoR:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    cursor:pointer;
+    font-weight:bold;
+}
+.modulo{
+    float:left;
+    width:200px;
+    height:70px;
+    margin:4px 5px 2px 5px;
+    text-align:right;
+    color:#FFF;
+    font-weight:bold;
+    float:right;
+}
+.blue {
+    float:left;
+    margin-left:10px;
+}
+.left{
+    float:right;
+    width:113px;
+    padding:5px;
+}
+.leftupload{
+    float:right;
+    margin-right:20px;
+    padding:5px;
+}
+.nuevo{
+    background:url(../icons/nuevo.png) center 0px no-repeat !important;
+}
+.editar{
+    background:url(../icons/pencil.png) center 0px no-repeat !important;
+}
+.eliminar{
+    background:url(../icons/eliminar.png) center 0px no-repeat !important;
+}
+.print{
+    background:url(../icons/pdf.png) center 0px no-repeat !important;
+}
+.show-images-icon {
+    background: url('../icons/show-images.png') center 0px no-repeat !important;
+}
+.logoSEN{
+    float:left;
+    margin:50px;
+}
+.link{
+    color:#06F;
+}
+.menu{
+    width:140px;
+    height:30px;
+    font-size:11px;
+    color:#039;
+    font-weight:bold;
+    margin:3px;
+}
+.linkMenu{
+    font-size:11px;
+    color:#15428B;
+    margin:0px;
+    padding:3px;
+
+    font-weight: bold;
+    height: 34px;
+
+}
+.linkMenu:hover{
+    cursor:pointer;
+    color: #fff;
+    background: #7187AC;
+}
+.linkMenu img{
+    margin: 0px 3px 0px 0px;
+    float: left;
+    clear: both;
+}
+.linkMenu .textmenu{
+    margin: 10px 3px;
+    float: left;
+
+}
+.iconPanelNoticia{
+    background:url(../icons/news.png) 0px no-repeat !important;
+}
+.iconPanelContacto{
+    background:url(../icons/contact.png) 0px no-repeat !important;
+}
+.iconPanelCotizacion{
+    background:url(../icons/cotizacion.png) 0px no-repeat !important;
+}
+.iconGuardar{
+    background:url(../icons/disk.png) 0px no-repeat !important;
+}
+.iconPDF{
+    background:url(../icons/pdf.png) 0px no-repeat !important;
+}
+.iconPanelUsuario{
+    background:url(../icons/user.png) 0px no-repeat !important;
+}
+.resumirNoticia{
+    width:100%px;
+    height:auto;
+    text-align:justify;
+    margin:10px;
+}
+.panel{
+    background:#0CC;
+    width:100%;
+    height:100%;
+}
+/*-------------------------------*/
+/*-------------------------------*/
+.row-image{
+    background: #FAFAFA;
+    overflow-y: hidden;
+    margin-top: 5px;
+}
+.row-image img{
+    margin: 10px;
+}
+.add-image-icon {
+    background: url('../icons/upload.png') no-repeat 0 0 !important;
+}
+.row-image-title{
+    color: #fff;
+    font-size: 12px;
+    background: #15428B;
+    overflow-y: hidden;
+    padding: 5px;
+}
+.exit-icon{
+    background: url('../icons/exit.png') no-repeat 0 0 !important;
+}
+.cross-icon{
+    background: url('../icons/cross.png') no-repeat 0 0 !important;
+}
+.del-img-upload{
+
+}
+.del-img-upload:hover{
+    cursor: pointer;
+}
+.btn{
+    font-size: 12px;
+    background: #039;
+    color: #fff;
+    border: 1px solid #039;
+
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+
+.integrantes{
+    padding: 10px;
+    background: url(../images/3.jpg) #fff no-repeat;
+    height: 400px;
+}
+.integrantes p{
+    color: #7187AC;
+    margin: 5px;
+    text-align: left;
+}
+#loguito{
+  border-radius: 50% 50%;
+  position: absolute;
+  left: 250px;
+}
+#cabecera{
+  height:  240px;
+  background: #000;
+}
+#logcab{
+  width: 230px;
+  height: 40px;
+}
+#logoInt{
+  border-radius: 50% 50%;
+}

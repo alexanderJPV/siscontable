@@ -84,7 +84,7 @@ function usuarios() {
                             {fieldLabel: 'Ap. Paterno', id: 'paterno', name: 'paterno'},
                             {fieldLabel: 'Email', id: 'email', name: 'email', vtype: 'email'},
                             {fieldLabel: 'Login', id: 'login', name: 'login'},
-                            {fieldLabel: 'Passwordddddddddd', inputType: 'passwordddddd', id: 'password', name: 'passworddddddddddd', minLength: 6},
+                            {fieldLabel: 'Password', inputType: 'password', id: 'password', name: 'password', minLength: 6},
                             {fieldLabel: 'Rol', id: 'rol', name: 'rol', disabled: true, value: 'Editor'}
                         ],
                         Enviar: function() {

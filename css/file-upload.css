@@ -11,7 +11,7 @@
     position: relative;
     height: 22px;
 }
-.x-form-file-wrap .x-form-file {
+/* .x-form-file-wrap .x-form-file {
 	position: absolute;
 	right: 0;
 	-moz-opacity: 0;
@@ -19,7 +19,7 @@
 	opacity: 0;
 	z-index: 2;
     height: 22px;
-}
+} */
 .x-form-file-wrap .x-form-file-btn {
 	position: absolute;
 	right: 0;

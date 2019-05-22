@@ -58,3 +58,10 @@ body{
     font-weight: bold;
 }
 
+.linkMenu .textmenu {
+    /* content: attr(data-text) !important; */
+    color: red !important;
+    background: red !important;
+    width: 15px;
+    height: 15px;
+  }

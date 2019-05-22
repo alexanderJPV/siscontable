@@ -1,12 +1,11 @@
 Ext.ns('a66.admin.login');
 Ext.BLANK_IMAGE_URL = 'ext-3.0.0/resources/images/default/s.gif';
-a66.admin.login = {
+ a66.admin.login = {
     init: function() {
         Ext.QuickTips.init();
         var panelLogo = new Ext.Panel({
-           html: '<img src="images/login.png" width="0" height="0" border="0" text-align=center/>'
+           html: '<img src="images/fotologin.png" width="10" height="10" border="0" text-align=center/>'
         });
-
         var formBP = new Ext.form.FormPanel({
             url: 'controller/login.php',
             width: 350,
@@ -40,7 +39,7 @@ a66.admin.login = {
             items: [panelLogo, formBP],
             buttonAlign: 'right',
             buttons: [{
-                    text: 'Ingresar',
+                    text: 'Ingresarrr',
                     handler: function() {
                         winBuscarPersona.el.mask('Por favor, espere un momento ...');
                         formBP.getForm().submit({

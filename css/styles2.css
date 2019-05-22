@@ -1,7 +1,7 @@
 body{
     font-family:Tahoma, Geneva, sans-serif;
-    /*background-color:#b264bb;*/
-    background-image: url(../images/fondo.jpg);
+    background-color:#962521;    
+    /* background-image: url(../images/fondo.jpg); */
     margin: 0px;
     padding: 0px;
 }
@@ -26,8 +26,8 @@ body{
 
     color:#CCC;
     font-size:14px;
-    /*background:#b264bb;*/
-    background-image: url(../images/4.jpg);
+    background:#962521;
+    /* background-image: url(../images/4.jpg); */
     /*background-image: url(../images/texturalila1.jpg);*/
     width:100%;
     height:50px;
