@@ -13,12 +13,11 @@ and open the template in the editor.
     </head>
     <body>
         <div class="integrantes">
-            <p><img id="logoInt" src="../images/logocon.jpg" width="100"></p>
-            <p><b>INTEGRANTES</b></h4>
-            <p>CHUQUIMIA CHAVEZ NADIA</p>
-            <p>GALLARDO FLORES GABRIELA XIOMARA</p>
-            <p>LLALLICO ANCALLI SOLANGE MERCEDES</p>
-            <p>MAMANI LAURA EDWIN JOHNNY</p>
+            <p><img id="logoInt" src="../images/icon11.png" width="100"></p>
+            <p><b>INF-316 </b></h4>
+            <p><b>INTEGRANTES </b></h4>
+            <p>MAZUELOS RABAZA GABRIEL</p>            
+            <p>PEREZ VARGAS ALEXANDER J.</p>
 
         </div>
     </body>

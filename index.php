@@ -13,7 +13,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="ext-3.0.0/resources/css/ext-all.css" />
         <link rel="stylesheet" type="text/css" href="ext-3.0.0/resources/css/DarkGrayTheme/css/xtheme-darkgray.css"/>
         <link rel="stylesheet" type="text/css" href="css/file-upload.css"/>
-        <link  rel="stylesheet" href="css/styles1.css" type="text/css"/>        
+        <link  rel="stylesheet" href="css/styles2.css" type="text/css"/>        
         <script src="ext-3.0.0/adapter/ext/ext-base.js" type="text/javascript"></script>                
         <script src="ext-3.0.0/ext-all.js" type="text/javascript"></script>        
         <script src="ext-3.0.0/locale/ext-lang-es.js" type="text/javascript"></script>        

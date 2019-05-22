@@ -135,9 +135,9 @@ a66.admin.interfaz = {
         });
 
         
-        var reportesHTML = '<p id="balanceInicialPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico7.png" width="25" height="30" /></span><span  class="textmenu">Balance de Apertura</span></p>';
-        reportesHTML += '<p id="comprobacionPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico8.png" width="25" height="30"/></span><span class="textmenu">Balance de Comprobacion</span></p>';
-        reportesHTML += '<p id="bgyerPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico9.png" width="25" height="30"/></span><span class="textmenu">Estados Financieros</span></p>';
+        var reportesHTML = '<p id="balanceInicialPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico7.png" width="25" height="30" /></span><span style="color:#2E453E" class="textmenu">Balance de Apertura</span></p>';
+        reportesHTML += '<p id="comprobacionPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico8.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Balance de Comprobacion</span></p>';
+        reportesHTML += '<p id="bgyerPDF" class="linkMenu" style="margin-top:5px;"><span><img src="icons/ico9.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Estados Financieros</span></p>';
 
         var panelReportes = new Ext.Panel({
             title: 'REPORTES',
@@ -146,8 +146,8 @@ a66.admin.interfaz = {
             html: reportesHTML,
         });
 
-        var acercaHTML = '<p id="manual" class="linkMenu" style="margin-top:5px;"><span><img src="icons/icon10.png" width="25" height="30"/></span><span class="textmenu">Manual de Usuario</span></p>';
-        acercaHTML += '<p id="acerca" class="linkMenu" style="margin-top:5px;"><span><img src="icons/icon11.png" width="25" height="30"/></span><span class="textmenu">Informacion del grupo</span></p>';
+        var acercaHTML = '<p id="manual" class="linkMenu" style="margin-top:5px;"><span><img src="icons/icon10.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Manual de Usuario</span></p>';
+        acercaHTML += '<p id="acerca" class="linkMenu" style="margin-top:5px;"><span><img src="icons/icon11.png" width="25" height="30"/></span><span style="color:#2E453E" class="textmenu">Integrantes grupo</span></p>';
 
         var panelAcerca = new Ext.Panel({
             title: 'OTROS',

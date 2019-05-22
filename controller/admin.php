@@ -1,5 +1,5 @@
-<link  rel="stylesheet" href="css/styles1.css" type="text/css"/>
- <script type="text/javascript" src="js/admin22.js"></script>
+<link  rel="stylesheet" href="css/styles2.css" type="text/css"/>
+ <script type="text/javascript" src="js/admin222.js"></script>
  <body>
     <div class="header" id="header">
         <div class="icono" style="float:right;" id="salir">

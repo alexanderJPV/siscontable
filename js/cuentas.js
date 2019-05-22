@@ -28,10 +28,12 @@ function noticias() {
         columns: [
             new Ext.grid.RowNumberer(),
             {
-                header: 'Codigo',
+/*              bodyStyle:{"background-color":"#2E453E"},
+ */             header: 'Codigo',
                 dataIndex: 'codigo',
                 width: 100,
                 sortable: true
+
             },
             {
                 header: 'Nombre',
